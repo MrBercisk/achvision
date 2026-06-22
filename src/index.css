@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-primary: #745a27;
+  --color-primary-container: #c9a96e;
+  --color-gold-light: #DFC08A;
+  --color-gold-dark: #A8844A;
+  --color-surface-cream: #FAF9F5;
+  --color-surface-dark: #111111;
+  --color-surface-container-low: #f5f4f0;
+  --color-footer-black: #111111;
+  --color-border-light: #E5E5E5;
+  --color-border-dark: #2D2D2D;
+  --color-text-secondary: #6B6B6B;
+  --color-text-muted-dark: #9CA3A0;
+}
+
+/* Custom scrollbar and utilities */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-surface-cream);
+  color: #111111;
+  overflow-x: hidden;
+}
+
+/* Tabular figures for stats */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+

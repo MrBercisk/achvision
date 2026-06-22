@@ -1,0 +1,6 @@
+{
+  "name": "ArchVision Studio",
+  "description": "High-end architecture studio company profile, displaying beautiful projects, architectural processes, and project contact capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
